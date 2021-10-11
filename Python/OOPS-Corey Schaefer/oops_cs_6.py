@@ -36,5 +36,10 @@ class Employee:
 
 emp_1 = Employee('Ishan', 'Sandex', 95000)
 
+""""
 print(repr(emp_1))
 print(str(emp_1))
+"""
+
+print(emp_1.__repr__())
+print(emp_1.__str__())
